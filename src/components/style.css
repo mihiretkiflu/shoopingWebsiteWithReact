@@ -1,0 +1,17 @@
+.container{
+    height: 60px;
+    background-color: black;
+
+}
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;   /* makes nav bar on top of all components */
+}
